@@ -2,8 +2,8 @@
 
 # username = somebody
 # password = somepass
-
+# selfip = 1.1.1.1
 # initport = 21
 # passiveport = 20
 
-# dir = /home/admin/
+# ftpdir = /home/admin/
