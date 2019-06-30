@@ -1,0 +1,9 @@
+# filename server.conf
+
+# username = somebody
+# password = somepass
+
+# initport = 21
+# passiveport = 20
+
+# dir = /home/admin/
