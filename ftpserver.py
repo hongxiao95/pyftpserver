@@ -20,7 +20,7 @@ def main():
         username = config["username"]
         passwd = config["passwd"]
         initport = int(config["initport"])
-        passiveport = int(config["initport"])
+        passiveport = int(config["passiveport"])
         ftpdir = config["ftpdir"]
         selfip = config["selfip"]
 
@@ -64,7 +64,7 @@ def getConfig():
         line = configFile.readline()
     
     if "" in config.values():
-        return False
+        handleErrorExit()
 
     return config
 
