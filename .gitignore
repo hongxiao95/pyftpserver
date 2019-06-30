@@ -1,3 +1,4 @@
 *.pyc
 /ftpvenv
 /.vscode
+server.conf
